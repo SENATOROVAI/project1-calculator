@@ -1,4 +1,4 @@
-from calculator import run_calculator
+from calculator import input_calculator
 
 def main():
     run_calculator()
