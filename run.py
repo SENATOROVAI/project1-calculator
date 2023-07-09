@@ -1,7 +1,7 @@
-from calculator import input_calculator
+from название файла import название функции
 
 def main():
-    run_calculator()
+    input_data()
 
 if __name__ == "__main__":
     main()
