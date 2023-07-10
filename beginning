@@ -1,0 +1,8 @@
+from flask import Flask # подключили билиотеку
+num = float(input())
+num2 = float(input())
+_name_ = input("")
+variable = 0#сетчик
+if _name_ == "*":#приравняли
+    variable = num * num2# умножение
+    run_calculator()
