@@ -3,7 +3,7 @@
 
 def run_calculator():
     while True:
-      num1, num2, operator = функция()  #Борис, помоги разобраться
+      num1, num2, operator = функция()
       if oparator == чему?:
         принт(вызов функции с параметрами)
       иначеесли оператор ==
