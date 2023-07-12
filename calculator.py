@@ -4,7 +4,7 @@ from divide_zero import divide
 
 
 # Рефакторинг кода
-def run_calculator():2
+def run_calculator():
     while True:
         num1, num2, operator = input_data()
 
@@ -17,5 +17,4 @@ def run_calculator():2
         elif operator == "/":
             print(divide(num1, num2))
         else:
-            raise ValueError("division by zero")
-        
+            print("ERROR")
