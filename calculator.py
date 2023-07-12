@@ -1,25 +1,21 @@
-from project1-calculator import operations,mod_division,divide
-from project1-calculator import input_data
+from input_data import input_data
+from operations import subtract, multiply, add
+from divide_zero import divide
 
- def run_calculator():
+
+# Рефакторинг кода
+def run_calculator():2
     while True:
-      num1, num2, operator = input_data()
-      
-        if operator == '+':
-           print(num1 + num2)
-        elif operator == '-':
-           print(num1 - num2)
-        elif operator == '*':
-           print(num1 * num2)
-        elif operation == '/':
-                result = divide(num1, num2)
-                if result is not None:
-                    print(num1 / num2)
-        elif operation == '**':
-           print(num1 ** num2)
+        num1, num2, operator = input_data()
+
+        if operator == "+":
+            print(add(num1, num2))
+        elif operator == "-":
+            print(subtract(num1, num2))
+        elif operator == "*":
+            print(multiply(num1, num2))
+        elif operator == "/":
+            print(divide(num1, num2))
         else:
-           print('ERROR')
-           continue 
-
-
-     
+            raise ValueError("division by zero")
+        
