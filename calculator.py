@@ -1,11 +1,24 @@
-импортируем функции сложения и т.д
-импортируем инпут 
+from input_data import input_data
+from operations import subtract, multiply, add
+from divide_zero import divide
+from mod_division import *
 
+
+# Рефакторинг кода
 def run_calculator():
     while True:
-      num1, num2, operator = функция()
-      if oparator == чему?:
-        принт(вызов функции с параметрами)
-      иначеесли оператор ==
+        num1, num2, operator = input_data()
 
-и т .д
+        if operator == "+":
+            print(add(num1, num2))
+        elif operator == "-":
+            print(subtract(num1, num2))
+        elif operator == "*":
+            print(multiply(num1, num2))
+        elif operator == "/":
+            print(divide(num1, num2))
+        elif operator == "%":
+            print(mod(num1, num2))
+        else:
+            print("ERROR")
+            
