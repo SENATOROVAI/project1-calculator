@@ -1,7 +1,4 @@
-from project1-calculator import operations,mod_division,divide
-from project1-calculator import input_data
-
- def run_calculator():
+def run_calculator():
     while True:
       num1, num2, operator = input_data()
       
