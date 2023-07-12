@@ -1,1 +1,1 @@
-# project1-calculator
+# Класс задачи: reverse engineering
