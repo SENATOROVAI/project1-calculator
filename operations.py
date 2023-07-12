@@ -1,6 +1,14 @@
-def add(a, b):
-    return a+b
+def add(num1, num2):
+    return num1 + num2
 
-напиши название параметров по PEP8    
+
+def multiply(num1, num2):
+    return num1 * num2
+
+
+
+
+
+
     
         
