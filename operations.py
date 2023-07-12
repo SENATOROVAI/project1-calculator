@@ -1,1 +1,2 @@
-Здесь функции, add subtract multiply, принимают два параметра и возвращают их 
+def subtract(num1, num2):
+    return num1 - num2
