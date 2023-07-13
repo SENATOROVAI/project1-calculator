@@ -1,1 +1,1 @@
-# Класс задачи: reverse engineering
+# Класс задачи: reverse engineering!
