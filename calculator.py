@@ -10,7 +10,7 @@ def run_calculator():
         num1, num2, operator = input_data()
 
         operations = {"+": add, "-": subtract, "*": multiply, "/": divide, "%": mod}  # Вынес все операции между числами в словарь, ключи - знаки операций
-        if opertor not in operations:  # Проверка, если оператора нету в словаре
+        if operator not in operations:  # Проверка, если оператора нету в словаре
             print("ERROR")
 
         print(operations[operator](num1, num2))  # Забираем ссылку на функцию со словаря по ключю, вызываем и передаем аргументы
