@@ -1,5 +1,5 @@
 # Тип проекта: калькулятор!
-# Класс задачи: reverse engineerin.
+# Класс задачи: reverse engineerin!
 
 # Calculator.py
  импортирует функции ввода(input_data), subtract(вычитания), multiply(умножения), 
