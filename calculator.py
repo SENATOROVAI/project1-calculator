@@ -1,6 +1,7 @@
 from input_data import input_data
 from operations import subtract, multiply, add
 from divide_zero import divide
+from integer_division import int_division 
 from mod_division import *
 
 
@@ -17,6 +18,8 @@ def run_calculator():
             print(multiply(num1, num2))
         elif operator == "/":
             print(divide(num1, num2))
+        elif operator == "//":
+            print(int_division(num1, num2))
         elif operator == "%":
             print(mod(num1, num2))
         else:
